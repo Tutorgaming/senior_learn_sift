@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="testing" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/testing" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="C:/OpenCV3/opencv/build/install/include" />
+				</Compiler>
+				<Linker>
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_adas300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_aruco_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_aruco300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_bgsegm_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_bgsegm300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_bioinspired_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_bioinspired300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_calib3d_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_calib3d300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_ccalib_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_ccalib300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_core_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_core300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_dpm_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_dpm300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_face_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_face300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_features2d_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_features2d300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_flann_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_flann300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_hal_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_hal300.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_highgui_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_highgui300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_imgcodecs_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_imgcodecs300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_imgproc_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_imgproc300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_ml_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_ml300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_objdetect_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_objdetect300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_optflow_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_optflow300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_perf_bioinspired_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_perf_calib3d_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_perf_core_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_perf_features2d_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_perf_imgcodecs_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_perf_imgproc_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_perf_objdetect_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_perf_photo_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_perf_reg_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_perf_stitching_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_perf_superres_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_perf_tracking_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_perf_video_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_perf_videoio_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_perf_xfeatures2d_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_perf_ximgproc_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_perf_xphoto_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_photo_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_photo300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_reg_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_reg300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_rgbd_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_rgbd300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_saliency_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_saliency300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_shape_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_shape300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_stereo_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_stereo300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_stitching_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_stitching300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_superres_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_superres300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_surface_matching_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_surface_matching300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_test_aruco_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_test_bgsegm_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_test_bioinspired_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_test_calib3d_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_test_core_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_test_features2d_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_test_flann_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_test_highgui_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_test_imgcodecs_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_test_imgproc_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_test_ml_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_test_objdetect_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_test_optflow_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_test_photo_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_test_reg_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_test_rgbd_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_test_shape_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_test_stereo_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_test_stitching_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_test_superres_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_test_tracking_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_test_video_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_test_videoio_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_test_xfeatures2d_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_test_ximgproc_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_test_xphoto_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_text_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_text300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_tracking_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_tracking300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_ts_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_ts300.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_video_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_video300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_videoio_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_videoio300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_videostab_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_videostab300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_xfeatures2d_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_xfeatures2d300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_ximgproc_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_ximgproc300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_xobjdetect_pch_dephelp.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_xobjdetect300.dll.a" />
+					<Add library="C:\OpenCV3\opencv\build\lib\libopencv_xphoto300.dll.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/testing" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
