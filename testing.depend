@@ -523,3 +523,10 @@
 	"matrix.h"
 	"random.h"
 
+1443960595 source:d:\workspace\senior_learn_sift\main.cpp
+	<iostream>
+	<opencv2/opencv.hpp>
+	<opencv2/xfeatures2d.hpp>
+	<opencv2/features2d/features2d.hpp>
+	<opencv2/flann.hpp>
+
